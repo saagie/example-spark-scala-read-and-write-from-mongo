@@ -6,7 +6,7 @@ Package for saagie : sbt clean assembly and get the package in target.
 Usage in local :
 
  - sbt clean assembly
- - spark-submit --class=io.saagie.example.moongo.Main example-spark-scala-read-and-write-from-mongo-assembly-1.0.jar "hdfs://hdfshost:8020/"
+ - spark-submit --class=io.saagie.example.moongo.Main example-spark-scala-read-and-write-from-mongo-assembly-1.0.jar  --mongoUri " mongodb://username:password@host:27017/database"
 
 Usage in Saagie :
 
